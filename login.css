@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(8px);
+}
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exit-container, .register-container, .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+}
